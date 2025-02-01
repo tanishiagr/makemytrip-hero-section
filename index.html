@@ -1,40 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MakeMyTrip - Hero Section</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>MakeMyTrip</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-
-    <!-- Navigation Bar -->
-    <header>
-        <nav class="navbar">
-            <div class="logo">Make<span class="highlight">MY</span>Trip</div>
-            <ul class="nav-links">
-                <li><a href="#">Flights</a></li>
-                <li><a href="#">Hotels</a></li>
-                <li><a href="#">Trains</a></li>
-                <li><a href="#">More</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="search-container">
-            <h1>Book Your Journey Now</h1>
-            <form>
-                <input type="text" placeholder="From">
-                <input type="text" placeholder="To">
-                <input type="date">
-                <input type="date">
-                <button type="submit">Search</button>
-            </form>
+    <div class="container">
+        <div class="navigation">
+            <div class="nav-1-menu">
+                <div class="logo">
+                    <img src="mmtLogoWhite (1).png" alt="">
+                </div>
+                <div class="menu-1">
+                    <ul>
+                        
+                        <li><a class="menu-flex-1">
+                                <img src="mybiz-1.png" alt="">
+                                <div class="menu-2-text">
+                                    <p class="menu-2-text-1">Introducing myBiz</p>
+                                    <p class="menu-2-text-2">Business Travel Solution</p>
+                                </div>
+                            </a></li>
+                        <li><a class="menu-flex-2">
+                                <img src="suitcase-1.png" alt="">
+                                <div class="menu-3-text">
+                                    <p class="menu-3-text-1">My Trips</p>
+                                    <p class="menu-3-text-2">Manage your bookings</p>
+                                </div>
+                            </a></li>
+                        <li class="login"><a class="menu-flex-3">
+                                <div class="my">
+                                    <img src="mysvg.png" alt="">
+                                </div>
+                                <div class="menu-3-text">
+                                    <p class="menu-3-text-1">Login or Create Account <i
+                                            class="fa-solid fa-angle-down fa-lg"></i></p>
+                                </div>
+                            </a></li>
+                        <li class="inr"><a class="menu-flex-4">
+                                <div class="flag">
+                                    <img src="Flag_of_India.png" alt="">
+                                </div>
+                                <div class="menu-4-text">
+                                    <p class="menu-4-text-1">IN | ENG | INR <i class="fa-solid fa-angle-down fa-lg"></i>
+                                    </p>
+                                </div>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </section>
+        <div class="flight-container">
+            <div class="navigation-2">
+                <nav>
+                    <ul>
+                        <li>
+                            <div class="nav-1">
+                                    <img class="img-1" src="menu-2-2.png" alt="">
+                                    <span id="nav-span-2">Flights</span>
+                                </div>
+                        </li>
+                        <li>
+                            <div class="nav-2">
+                                    <img class="img-2" src="hotel__2.png" alt="">
+                                    <span class="nav-span-2">Hotels</span>
+                                </div>
+                        </li>
+                        <li>
+                            <div class="nav-3">
+                                    <img class="img-3" src="homestays.png" alt="">
+                                    <span class="nav-span-2">Homestays</span>
+                                </div>
+                        </li>
+                        <li class="removemargin">
+                            <div class="nav-4">
+                                    <img class="img-4" src="holiday.png" alt="">
+                                    <span class="nav-span-2">Holiday</span>
+                                </div>
+                        </li>
+                        <li>
+                            <div class="nav-5">
+                                    <img class="img-5" src="train.png" alt="">
+                                    <span class="nav-span-2">Train</span>
+                                </div>
+                        </li>
+                        <li>
+                            <div class="nav-6">
+                                    <img class="img-6" src="bus.png" alt="">
+                                    <span class="nav-span-2">Buses</span>
+                                </div>
+                        </li>
+                        <li>
+                            <div class="nav-7">
+                                    <img class="img-7" src="taxi.png" alt="">
+                                    <span class="nav-span-2">Cabs</span>
+                                </div>
+                        </li>
+                        <li>
+                            <div class="nav-8">
+                                    <img class="img-8" src="forex.png" alt="">
+                                    <span class="nav-span-2">Forex</span>
+                                </div>
+                        </li>
+                    </li>
+                    <li class="removemargin">
+                        <div class="nav-9">
+                                <img class="img-9" src="flights.png" alt="">
+                                <span class="nav-span-2">Charters</span>
+                            </div>
+                    </li>
+                </ul>
+            </nav>
 
-    <script src="script.js"></script>
-</body>
-</html>
+        </div>
+        <div class="flights-data">
+            <div class="flights-cols">
+                <div class="flights-col-1">
+                    <ul>
+                        <li>
+                            <span class="tabscircle"></span>
+                            Oneway
+                        </li>
+                        <li>
+                            <span class="tabscircle"></span>
+                            RoundTrip
+                        </li>
+                        <li>
+                            <span class="tabscircle"></span>
+                            MultiCity
+                        </li>
+                    </ul>
+                </div>
+                <div class="flights-col-2">
+                    <h1 class="flexOne">Book&nbsp;
+                        <a class="darkGreyText">International</a>
+                        &nbsp;and&nbsp;
+                        <a class="darkGreyText">Domestic Flights</a>
+                    </h1>
+                </div>
+
+            </div>
+            <div class="flights-2-cols">
+                <div class="flights-2-col-1">
+                    <label for="fromcity">
+                        <span class="fromcity">From</span>
+                        <input type="text" value="MAR" readonly id="fromcity">
+                        <p><span title class="airport">
+                                Chennai, Chennai Airport
+                            </span></p>
+                    </label>
+                </div>
+                <span class="arrow">
+                    <img src="arrow.png" alt="">
+                </span>
+                <div class="flights-2-col-2">
+                    <label for=""><span class="fromcity">To</span>
+                        <input type="text" name="" id="" readonly value="DEL">
+                        <p>
+                            <span>Delhi, Delhi Airpot</span>
+                        </p>
+                    </label>
+                </div>
+                <div class="flights-2-col-3"><label for="departure">
+                        <span class="fromcity">DEPARTURE</span>
+                        <input data-cy="departure" id="departure" type="text" class="fsw_inputField font20"
+                            readonly="" value="Friday, 20 Mar 2006">
+                        <p><span class="span-1">01</span>
+                            <span class="span-2">Feb</span>
+                            <span class="span-3">25</span>
+                        </p>
+                        <p>Saturday</p>
+                    </label></div>
+                <div class="flights-2-col-4">
+                    <div class="flights-div1">
+                        <p>Return fares may hike due to high demand. Book now using myBiz special fare &amp;
+                            cancel/change date for FREE later
+                            if plan changes</p>
+                    </div>
+                    <div class="flights-div2">
+                        <label for="">
+                            <span>RETURN</span>
+                            <p class="">Tap to add
+                                a return date for bigger
+                                discounts</p>
+                        </label>
+                    </div>
+
+                </div>
+                <div class="flights-2-col-5">
+                    <label for="travellers">
+                        <span class="traverller">travellers & Class</span>
+                        <input id="travellers" type="text" class="" readonly=""
+                            value="0 Infant, 0 Adult, 1 Children">
+                        <p class="para1">
+                            <span><span class="span1">1 &nbsp;</span>Traveller</span>
+                        </p>
+
+                    </label>
+                    <div class="flights-5-div">
+                        <p class="hoverpara">Groups Booking Available!</p>
+                        <div class="tooltip">Save on bookings with more than 9 travellers</div>
+                    </div>
+                </div>
+            </div>
+            <div class="select-fire">
+                <div class="select-fire-1">
+                    <span>Select A <br> Fare Type:</span>
+                    <ul>
+                        <li class="list-1">
+                            <p>Regular<br>Fares</p>
+                        </li>
+                        <li class="list-2">
+                            <p> Armed Forces <br> Fares </p>
+                            <div class="specialFareTooltip">
+                                
+                               
+                            </div>
+                        </li>
+                        <li class="list-3">
+                            <p>Student <br> Fares</p>
+                            <div class="specialFareTooltip">
+                               
+                                
+                            </div>
+                        </li>
+                        <li class="list-4">
+                            <p> Senior Citizen<br> Fares</p>
+                            <div class="specialFareTooltip">
+                                
+                                
+                            </div>
+                        </li>
+                        <li class="list-5">
+                            <p>Doctor<br> Fares</p>
+                            <div class="specialFareTooltip">
+                                
+                                
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+               
+
+
+        </div>
+        <p class="search"><a>search</a></p>
+
+    </div>
+    <div class="Page-Content">
+        <div class="page-content-1">
+            <div class="content-1">
+                <img src="downArrow.png" alt="">
+                <span>Explore More</span>
+                <img src="downArrow.png" alt="">
+            </div>
+        <div class="page-content-2"></div>
+        
