@@ -1,0 +1,72 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #003580;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 45px;  /* Change this value to adjust the size */
+    font-weight: bold; /* Makes it bold */
+}
+
+.highlight {
+    color: red;  /* Changes only "MY" to red */
+    font-weight: bold; /* Optional: Makes it bold */
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('images/background.jpg'); /* Use a real image */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Search Box */
+.search-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.search-container form {
+    display: flex;
+    gap: 10px;
+}
+
+input, button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff6f00;
+    color: white;
+    cursor: pointer;
+}
